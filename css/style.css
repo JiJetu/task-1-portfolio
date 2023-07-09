@@ -41,7 +41,6 @@ header {
 
 .header-title {
     color: #151414;
-    font-family: Work Sans;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -53,7 +52,9 @@ header {
     margin-top: 32px;
 }
 
-/* Main Section */
+/* Main Section style */
+
+/* My failures of previous year section style */
 main {
     background-color: #FFF;
     padding: 130px 200px;
@@ -65,26 +66,53 @@ main {
     align-items: center;
     gap: 100px;
 }
-.banner-info{
+
+.banner-info {
     padding-left: 0px;
 }
+
 .banner-info-title {
     color: #151414;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
-.banner-info-description{
+
+.banner-info-description {
     width: 416px;
     margin-top: 0px;
     margin-bottom: 16px;
 }
+
 ul {
     list-style: none;
 }
-.banner-info-list{
+
+.banner-info-list {
     margin-bottom: 8px;
-}  
-.tick{
+}
+
+.tick {
     color: greenyellow;
+}
+
+/* My plane section style */
+.my-plane {
+    margin-top: 150px;
+}
+
+.my-plane-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.my-plane-item-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.my-plane-item{
+    text-align: center;
 }
