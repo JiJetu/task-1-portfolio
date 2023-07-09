@@ -107,14 +107,31 @@ ul {
     font-weight: 700;
     text-align: center;
 }
-.my-plane-item-container{
+
+.my-plane-item-container {
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.my-plane-item{
+
+.my-plane-item {
     text-align: center;
 }
 
 /* Awlays keep a positive mindset section style */
+.mindset {
+    margin-top: 130px;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.486),rgba(0, 0, 0, 0.007)), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding: 60px 400px 60px 65px;
+}
+
+.mindset-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
