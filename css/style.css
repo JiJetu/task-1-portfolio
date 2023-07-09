@@ -31,7 +31,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 809px;
-    position: relative;
+    /* position: relative; */
     padding: 200px 230px 0px 650px;
 }
 
@@ -78,4 +78,13 @@ main {
     width: 416px;
     margin-top: 0px;
     margin-bottom: 16px;
+}
+ul {
+    list-style: none;
+}
+.banner-info-list{
+    margin-bottom: 8px;
+}  
+.tick{
+    color: greenyellow;
 }
