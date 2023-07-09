@@ -1,7 +1,8 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
+
 /* primary font */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -25,7 +26,8 @@ body {
 /* header section style */
 header {
     background-image: url("../images/banner/banner2.png")
-    /* ,linear-gradient(rgb(0, 12, 12),rgb(0, 0, 19))*/; 
+        /* ,linear-gradient(rgb(0, 12, 12),rgb(0, 0, 19))*/
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 809px;
@@ -44,8 +46,36 @@ header {
     font-weight: 700;
     margin-bottom: 24px;
 }
+
 .header-btn {
     background-color: #F15B22;
     color: #FFF;
     margin-top: 32px;
+}
+
+/* Main Section */
+main {
+    background-color: #FFF;
+    padding: 130px 200px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+.banner-info{
+    padding-left: 0px;
+}
+.banner-info-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+.banner-info-description{
+    width: 416px;
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
